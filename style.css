@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', serif;
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    font-weight: 600;
+}
+#welcome-bg{
+    z-index: -1;
+}
+nav{
+    width: 100%;
+    background-color: rgb(82, 163, 208,90%);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5%;
+    color: aliceblue;
+    backdrop-filter: blur(5px);
+    z-index: 2;
+    font-size: 1.2vw;
+   
+    
+}
+.go-to-top{
+    bottom:0 ;
+    right: 0;
+    padding: 10px 13px;
+    margin: 20px;
+    border: none;
+    border-radius: 40px;
+    position: fixed;
+    z-index: 3;
+    background-color: #7cccf770;
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+
+}
+ul{
+    display: flex;
+    align-items: center; 
+    list-style-type: none;
+    margin:0px 20px;
+    gap: 5vw;
+}
+.welcome{
+    position: relative;
+    color: aliceblue;
+}
+.sec1-body{
+    position: absolute;
+    inset: 17% 0 0 5%;
+    font-size: 1.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+.tech-gif{
+    position: absolute;
+    margin-top: 3%;
+    right: 5%;
+    width: 47%;
+}
+.download-app{
+    position: relative;
+    font-size: 1.2vw;
+    height: 7%;
+    padding: 0 5%;
+    background-color: transparent;
+    border-radius: 50px;
+    outline: 3px solid #136493;
+    border:none;
+    color: aliceblue;
+    cursor: pointer;
+    transition: background-color ease-in 0.3s ;
+}
+.download-app:active{
+    outline:none;
+    background-image: linear-gradient(to bottom right,#136493,#1882c0,#29a2e8);
+}
+.download-app:hover{
+    outline:none;
+    background-color: #136493;
+}
+
+.about-us{
+    position: absolute;
+    text-align: right;
+    padding: 0 20%;
+    display: flex;
+    column-gap: 10vw;
+}
+.about-us-body{
+    font-size: 1.1vw;
+
+}
+video{
+    background-color: #0C4465;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 20px;
+    
+
+}
+.titles{
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: #136493;
+    margin-bottom: 20px;
+}
+.services{
+    margin: 10% 0;
+    position: relative;
+    z-index: -1;
+}
+.our-services-container{
+    position: absolute;
+    top: 15%;
+    color: aliceblue;
+    padding: 0 20%;
+}
+.service{
+    width: 15vw;
+    background-color: #0C4465;
+    border-radius: 20px;
+    padding: 4% 2%;
+    text-align: center;
+    font-size: 0.9vw;
+}
+.services-photo{
+    margin-top: -50%;
+    width: 40%;
+}
+.all-services{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    margin-top: 10%;
+    justify-items: center;
+    justify-content: space-between;
+}
+.services-body{
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+.number-container{
+    position: absolute;
+    margin: -30% 0;
+    padding:2% 19%;
+    border-radius: 90px;
+    background-color: #0C4465;
+    display:flex;
+    column-gap: 10vw;
+    justify-content: center;
+    width: fit-content;
+}
+.man-pushing-image{width:50%;
+    border-radius: 50px;
+
+}
+.numbers{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+
+}
+.plus{
+    margin:5% 0;
+}
+.review-cards{
+    position: relative;
+    margin: 15% auto;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-content: center;
+}
+.card1,.card2,.card3,.card4{
+    position: absolute;
+    background-color: #0C4465;
+    width: 250px;
+    height: 380px;
+    border-radius: 30px;
+    padding: 50px 20px;
+    text-align: center;
+    color: aliceblue;
+    line-height: 25px;
+    box-shadow: -4px 5px 10px #010c13;
+}
+.user-img{
+    width: 70%;
+}
+.card1{
+    left: 50%;
+    z-index: 1;
+}
+.card2{
+    left: 40%;
+    z-index: 0;
+}
+.card3{
+    left: 30%;
+    z-index: -1;
+}
+.card4{
+    left: 20%;
+    z-index: -2;
+}
+.go-right,.go-left{
+    color: #0C4465;
+    position: absolute;
+    padding: 10px;
+    width: 50px;
+}
+.go-left{
+    left:50px ;
+}
+.go-right{
+    right:50px ;
+}
+.faqs{
+    border: 1px solid red;
+    margin-top:40%;
+    
+}
